@@ -1,0 +1,8 @@
+.head{
+    text-decoration: wavy !important;
+    text-decoration-color: blueviolet;
+}
+.icon{
+    border-radius: 50%;
+    background: pink;
+}
