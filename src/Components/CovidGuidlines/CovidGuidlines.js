@@ -7,13 +7,13 @@ const CovidGuidlines = () => {
   return (
     <>
     <div className='covid-cont'>
-      <h2>COVID-19 GUIDLINES</h2>
+      <h2>COVID-19 <span className='para-span'>GUIDLINES</span></h2>
     
     <Container >
       <Row>
         
         <Col md={6}>
-        <Card style={{ width: '18rem' ,color:'black'}}>
+        <Card className='card-covid' style={{ width: '30rem' , height:'18rem',color:'black',backgroundColor:'goldenrod', marginBottom:'10px'}}>
   <Card.Body>
     <Card.Title>SAFETY FIRST</Card.Title>
     
@@ -29,7 +29,7 @@ const CovidGuidlines = () => {
         </Col>
         
         <Col md={6}>
-        <Card style={{ width: '18rem' ,color:'black'}}>
+        <Card className='card-covid' style={{ width: '30rem', height:'18rem' ,color:'black' , backgroundColor:'goldenrod'}}>
   <Card.Body>
     <Card.Title>SALOON GUIDLINES</Card.Title>
         

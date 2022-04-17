@@ -1,5 +1,5 @@
 .hero-container {
-    background: url('/public/images/saloon.jpg') center center/cover no-repeat; 
+    background: url('/public/images/saloon3.jpg') center center/cover no-repeat; 
     height: 100vh;
     width: 100%;
     display: flex;
@@ -10,6 +10,7 @@
     animation: changeBackgroundImage 13s infinite;
     /* margin-top: 13rem; */
     overflow: hidden;
+    margin-top: 1px;
   }
   @keyframes changeBackgroundImage {
     15% {

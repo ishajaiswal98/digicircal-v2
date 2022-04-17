@@ -5,7 +5,7 @@ import { FaHandPointer , FaCalendarAlt , FaHome } from 'react-icons/fa';
 const Howitworks = () => {
   return (
     <>
-    <div>
+    <div className="margin-div">
 
       <h2 >How It <span className='head'>Works</span></h2>
     </div>

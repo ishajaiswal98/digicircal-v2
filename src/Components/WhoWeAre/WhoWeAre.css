@@ -10,12 +10,20 @@
     margin-left: 0;
     background-color: #490f76;
     padding: 30px;
-    margin-top: 0;
+    margin-top: 2rem;
     margin-bottom: 0;
     color: #fff!important;
+    box-shadow: 2px 2px 2px 2px black;
+    transform: skewY(3deg);
+    border-radius: 2rem;
 
     
 
+}
+.para-span{
+    color: goldenrod;
+    font-style: italic;
+    font-weight: bolder;
 }
 p{
     display: block;

@@ -5,16 +5,15 @@ import './NavbarMenu.css'
 const NavbarMenu = () => {
   return (
     <div className='navstyle'>
-         <Navbar expand="lg" className='navigation' sticky="top">
+         <Navbar expand="lg" className='navigation' bg="black" variant="dark"  fixed="top" >
   <Container fluid>
-    <Navbar.Brand href="#"><img src='images/logo.png' alt='logo' style={{height:'60px', width:'150px' , marginLeft:'5rem'}}></img></Navbar.Brand>
+    <Navbar.Brand href="#"><img src='images/logo.png' alt='logo' style={{height:'110px', width:'250px' , marginLeft:'5rem'}}></img></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
       <Nav
-        className="ms-auto my-2 my-lg-0 mx-5"
-        style={{ maxHeight: '100px' , color:'white'}}
-        transparent
-        variant='dark'
+        className="ms-auto  my-2 my-lg-0 mx-5 nav-item red"
+        style={{ maxHeight: '100px' , color:'white' }}
+        
       >
         <Nav.Link href="#action1" >HOME</Nav.Link>
         <Nav.Link href="#action2">ABOUT US</Nav.Link>

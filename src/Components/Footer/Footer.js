@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {   faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
 import './Footer.css'
 import { Container,Row ,Col } from "react-bootstrap";
-import {FaFacebook , FaInstagram, FaWhatsapp, FaPhoneAlt, FaEnvelopeOpenText} from 'react-icons/fa';
+import {FaFacebook , FaTwitter, FaWhatsapp, FaPhoneAlt, FaEnvelopeOpenText} from 'react-icons/fa';
 
 
 const Footer = () => {
   return (
-    <div>
-  <section className="">
+    <div className="margin-div">
+  <section >
   <footer className="completeFooter  text-center">
     <Container>
       <Row>
@@ -18,7 +18,7 @@ const Footer = () => {
           <img src='images/logo.png' alt='' style={{height:'200px' , width:'200px' , marginTop:'0'}}></img>
 
           <p className="AboutSoftgenics">
-          SoftGenics is one of the most affordable, low cost website design company offering best services with reasonable price . 
+          "Salon Home Service No'1 in Patna, Professional Beauticians, Genuine products and Best rates guaranteed" . 
           </p>
           
           </Col>
@@ -45,10 +45,10 @@ const Footer = () => {
             
             
             <li>
-            <i class="fa-solid fa-mobile-screen-button"> <p><a href="#" className="cont"><FaPhoneAlt/></a>(+91) 9380359418</p></i>
+            <i class="fa-solid fa-mobile-screen-button"> <p><a href="#" className="cont"><FaPhoneAlt/></a>(+91) 93188 18893</p></i>
             </li>
             <li>
-          <i class="fa-solid fa-envelope-circle-check"><p><a href="#" className="cont"><FaEnvelopeOpenText/></a>softgenics.private@gmail.com</p></i>
+          <i class="fa-solid fa-envelope-circle-check"><p><a href="#" className="cont"><FaEnvelopeOpenText/></a>www.goldenhoneysalon.com</p></i>
             </li>
             
           
@@ -58,17 +58,21 @@ const Footer = () => {
           </Col> 
            <Col md={3}>
             <h4 className="OurOffices">Follow and share</h4>
-            <img src='images/.jpg' alt='#' className="foot-img"></img>
+            <div className='foot-saloon-img'>
+            <img src='images/saloon3.jpg' alt='#' className="foot-img"></img>
+            <img src='images/saloon4.jpg' alt='#' className="foot-img"></img>
+            <img src='images/saloon1.jpg' alt='#' className="foot-img"></img>
+            </div>
             <div className="social-foot">
-            <a href='https://www.facebook.com/profile.php?id=100075713184173'  className="s-img"> <FaFacebook/></a>
-            <a href=' https://www.instagram.com/invites/contact/?i=47yfmt8z04ya&utm_content=nyx3xmx'><FaInstagram/></a>
-            <a href='https://wa.me/919380359418'><FaWhatsapp/></a>
+            <a href='https://www.facebook.com/Goldenhoneypatna/'  className="s-img"> <FaFacebook/></a>
+            <a href=' https://mobile.twitter.com/ghfamilysalon'><FaTwitter/></a>
+            <a href='https://wa.me/919381818893'><FaWhatsapp/></a>
             </div>
             </Col>
        
             <div className="text-center p-3 copyright">
-      © 2022 Copyright:
-      <a className="text-white ml-2" href="https://mdbootstrap.com/">SoftGenics.com</a>
+      © 2022 designed by:
+      <a className="text-black ml-2" href="https://mdbootstrap.com/">SoftGenics.com</a>
     </div>
     </Row>
     </Container>

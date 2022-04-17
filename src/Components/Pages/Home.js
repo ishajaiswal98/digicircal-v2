@@ -1,7 +1,8 @@
 import React from 'react'
+import FloatingWhatsApp from 'react-floating-whatsapp'
 import CovidGuidlines from '../CovidGuidlines/CovidGuidlines'
 import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
+
 import HeroSection from '../HeroSection/HeroSection'
 import Howitworks from '../Howitworks/Howitworks'
 import NavbarMenu from '../NavbarMenu/NavbarMenu'
@@ -13,7 +14,7 @@ import WhoWeAre from '../WhoWeAre/WhoWeAre'
 const Home = () => {
   return (
     <>
-    <Header/>
+    
     <NavbarMenu/>
     <HeroSection/>
     <Howitworks/>
@@ -23,6 +24,7 @@ const Home = () => {
     <CovidGuidlines/>
     <PolicyFaq/>
     <Footer/>
+    <FloatingWhatsApp/>
     
     </>
   )

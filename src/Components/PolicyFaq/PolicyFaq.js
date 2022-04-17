@@ -3,12 +3,12 @@ import { Col, Container, Row , Accordion } from 'react-bootstrap'
 
 const PolicyFaq = () => {
   return (
-    <div>
+    <div className="margin-div">
       <Container>
             <Row>
               <Col md={6}>
-               <h2>OUR POLICY</h2>
-               <Accordion>
+               <h2>OUR <span className='head'>POLICY </span></h2>
+               <Accordion className='faq-text'>
   <Accordion.Item eventKey="0">
     <Accordion.Header>OUR SERVICE GURANTEE</Accordion.Header>
     <Accordion.Body>

@@ -14,3 +14,7 @@ p{
     margin: 10px;
     
 }
+.card-covid:hover{
+    box-shadow: 2px 2px 2px white;
+    background-color: gold !important;
+}

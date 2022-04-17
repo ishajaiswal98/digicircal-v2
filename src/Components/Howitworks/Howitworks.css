@@ -1,8 +1,8 @@
 .head{
-    text-decoration: wavy !important;
-    text-decoration-color: blueviolet;
+    text-emphasis-style: wavy;
+    color: goldenrod;
 }
 .icon{
     border-radius: 50%;
-    background: pink;
+    background: goldenrod;
 }

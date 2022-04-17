@@ -1,5 +1,6 @@
 .copyright{
-    background-color: #0980e0;
+    background-color:goldenrod;
+    color: black;
     
 }
 .completeFooter{
@@ -22,6 +23,7 @@
     text-decoration-line:underline;
     /* text-shadow: 2px 2px 3px rgb(250, 155, 13); */
     text-align: left;
+    margin-top: 3rem;
   
 }
 ul{
@@ -39,11 +41,11 @@ ul{
 }
 .f-img{
     border-radius: 50%;
-    border-color: black;
+    border-color: rgb(250, 193, 6);
     height: 50px;
     width: 50px;
     margin-right: 4px; 
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px goldenrod;
     display: block;
     
 
@@ -59,23 +61,30 @@ ul{
 .cont{
     font-size: x-large;
     border-radius: 50%;
-    color: chocolate;
+    color: goldenrod;
     
 }
 
 .cont:hover{
-    color: blue;
+    color: purple;
 }
 .social-foot a{
     margin: 5px;
     font-size: xx-large;
-    color: chocolate;
+    color: goldenrod;
 }
 .social-foot a:hover{
-    color: darkblue;
+    color: purple;
 }
 
 .foot-img{
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 80px;
+    display: inline;
+}
+.foot-saloon-img{
+    display: inline;
+}
+.margin-div{
+    margin-top: 3rem;
 }
