@@ -1,28 +1,31 @@
 import React from 'react'
 import FloatingWhatsApp from 'react-floating-whatsapp'
-import CovidGuidlines from '../CovidGuidlines/CovidGuidlines'
+
 import Footer from '../Footer/Footer'
+import Header from '../Header/Header'
 
 import HeroSection from '../HeroSection/HeroSection'
-import Howitworks from '../Howitworks/Howitworks'
+
 import NavbarMenu from '../NavbarMenu/NavbarMenu'
 import Offer from '../Offer/Offer'
-import PolicyFaq from '../PolicyFaq/PolicyFaq'
+import OurServices from '../OurServices/OurServices'
+
 import Reviews from '../Reviews/Reviews'
-import WhoWeAre from '../WhoWeAre/WhoWeAre'
+
 
 const Home = () => {
   return (
     <>
-    
+    <Header/>
     <NavbarMenu/>
     <HeroSection/>
-    <Howitworks/>
+    <OurServices/>
+  
     <Offer/>
     <Reviews/>
-    <WhoWeAre/>
-    <CovidGuidlines/>
-    <PolicyFaq/>
+    
+
+    
     <Footer/>
     <FloatingWhatsApp/>
     

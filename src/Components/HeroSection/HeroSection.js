@@ -13,12 +13,12 @@ const HeroSection = () => {
         cursorStyle="_"
         typeSpeed={20}
         deleteSpeed={50}
-        words={['WELCOME TO' ,'GOLDEN' ,'HONEY']}
+        words={['WELCOME TO' ,'. D I G I  C I R C A L']}
         />
         </span>
-  <p>SALOON AND APA </p>
+  <p> </p>
   <div className="hero-btn">
-  <button  className='btn btn-booking' eventKey={2}><Link to='/Book-online'> BOOK ONLINE</Link> </button>
+  <button  className='btn btn-booking' eventKey={2}><Link to='/Book-online'>Contact us</Link> </button>
     </div>
     
     </div>
