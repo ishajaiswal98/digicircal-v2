@@ -42,7 +42,7 @@ return (
     <Carousel responsive={responsive}>
         <div>
             <Card>
-                <Card.Title><i className='fas fa-user' /> Sunita Kumari <img src="images/google.png" alt='googlr' /></Card.Title>
+                <Card.Title><i className='fas fa-user' /> Sunita Kumari <img src="/images/google.png" alt='google' /></Card.Title>
                 <div className='rating'>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
@@ -50,12 +50,12 @@ return (
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
                 </div>
-                <Card.Text>olden Honey service is awesome and there beautician reached on time. Beautician Meena Sinha ka work is excellent and her nature is very good... I am very much impressed with *Golden Honey* services...  Every one just go for it...... </Card.Text>
+                <Card.Text>...... </Card.Text>
             </Card>
         </div>
         <div>
             <Card>
-                <Card.Title><i className='fas fa-user' /> Ranjan Singh <img src="images/google.png" alt='googlr' /></Card.Title>
+                <Card.Title><i className='fas fa-user' /> Ranjan Singh <img src="/images/google.png" alt='googlr' /></Card.Title>
                 <div className='rating'>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
@@ -63,13 +63,13 @@ return (
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
                 </div>
-                <Card.Text>I am very happy with services given by Golden Honey Salon. Beautician are professional and experienced. Rates are also very genuine, professional products are being used. </Card.Text>
+                <Card.Text>I am very happy with services given by digicircal. </Card.Text>
 
             </Card>
         </div>
         <div>
             <Card>
-                <Card.Title><i className='fas fa-user' /> Chris Mill <img src="images/google.png" alt='googlr' /></Card.Title>
+                <Card.Title><i className='fas fa-user' /> Chris Mill <img src="/images/google.png" alt='googlr' /></Card.Title>
                 <div className='rating'>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
@@ -77,13 +77,13 @@ return (
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
                 </div>
-                <Card.Text>This salon is one of best kind. I've had best service. The behavior of the staff was amazing and well mannered. </Card.Text>
+                <Card.Text>. </Card.Text>
                 <br></br>
             </Card>
         </div>
         <div>
             <Card>
-                <Card.Title><i className='fas fa-user' /> Sales Team <img src="images/google.png" alt='googlr' /></Card.Title>
+                <Card.Title><i className='fas fa-user' /> Sales Team <img src="/images/google.png" alt='googlr' /></Card.Title>
                 <div className='rating'>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
@@ -91,12 +91,12 @@ return (
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
                 </div>
-                <Card.Text>Professional beautician, genuine products are being used and main thing it's pocket friendly. Now I will not go salon. Boom appointment with Golden Honey salon only... </Card.Text>
+                <Card.Text>... </Card.Text>
             </Card>
         </div>
         <div>
             <Card>
-                <Card.Title><i className='fas fa-user' /> Munni ji <img src="images/google.png" alt='googlr' /></Card.Title>
+                <Card.Title><i className='fas fa-user' /> Munni ji <img src="/images/google.png" alt='googlr' /></Card.Title>
                 <div className='rating'>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
@@ -104,14 +104,12 @@ return (
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
                 </div>
-                <Card.Text> I never thought that salon will come to my home
-I booked first time service with Golden Honey - Home Salon and i was amazed😃
-Good job by Golden Honey - Home Salon</Card.Text>
+                <Card.Text> </Card.Text>
             </Card>
         </div>
         <div>
             <Card>
-                <Card.Title><i className='fas fa-user' /> Neha Raj <img src="images/google.png" alt='googlr' /></Card.Title>
+                <Card.Title><i className='fas fa-user' /> Neha Raj <img src="/images/google.png" alt='googlr' /></Card.Title>
                 <div className='rating'>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
@@ -119,9 +117,7 @@ Good job by Golden Honey - Home Salon</Card.Text>
                     <i className='fas fa-star' />
                     <i className='fas fa-star' />
                 </div>
-                <Card.Text> I have small kid was not able to visit salon so i booked service from Golden Honey for my home service
-Guess what service I really liked
-Will not go parlour </Card.Text>
+                <Card.Text>  </Card.Text>
             </Card>
         </div>
         </Carousel>

@@ -2,7 +2,16 @@
     transition: transform .2s; /* Animation */
 /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(185,182,220,1) 0%, rgba(148,187,233,1) 100%); */
     box-shadow: 1rem;
+   
 }
-.services-cont:hover{
+/* .services-cont:hover{
     transform: scale(1.5);
+} */.ofc-img{
+  
+    border-radius: 50%;
+    border-width: 2rem;
+}
+.service{
+    
+    
 }

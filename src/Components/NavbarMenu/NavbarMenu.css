@@ -1,6 +1,6 @@
 .navbarMenu img {
-    height: 100px;
-    width: 150px;
+    height: 50px;
+    width: 120px;
     animation:demo 5s ease-in infinite;
 
     
@@ -8,13 +8,13 @@
 @keyframes demo  
 {  
  0% {background:red;}  
- 50% {background:yellow; width:100px; height:100px;}  
+ 50% {background:yellow;  height:60px;}  
  /* 100% {background:green; width:300px; height:px;}   */
 }  
 .navbarMenu {
     padding-right: 4rem !important;
-    padding-left: 2rem;
-    
+    padding-left: 4rem !important;
+    background-color: #fff !important;
     border: none !important;
     margin-top: 2rem;
   
@@ -27,19 +27,21 @@
 }
 
 .navbarMenu .navbar-nav .nav-link {
-    color: rgb(23, 235, 23) !important;
+    
+    color: rgb(14, 177, 22) !important;
+    text-shadow: 0px 2px 2px black;
     font-weight: bolder;
     padding: 1.5rem !important;
     padding-left: 2rem !important;
     font-size: larger
 }
 .navbarMenu .navbar-nav .nav-link:hover{
-    color: blue !important;
+    color: rgb(13, 87, 185) !important;
 }
  .navbar-light .navbar-toggler {
     border:  none !important;
     position: absolute;
-    color:rgb(23, 235, 23);
+    color:rgb(17, 175, 17);
     font-size: 25px;
   }
   .navbar-dark .navbar-toggler:focus{
@@ -52,7 +54,7 @@
       border: none !important;
   }
   .navbarMenu .dropdown-menu  .dropdown-item {
-      background-color: rgb(23, 235, 23);
+      background-color: whitesmoke;
       color: rgb(54, 53, 53);
       font-weight: 500;
   }

@@ -1,5 +1,6 @@
 import React from 'react'
 import FloatingWhatsApp from 'react-floating-whatsapp'
+import Clientlogo from '../Clientlogo/Clientlogo'
 
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
@@ -19,6 +20,7 @@ const Home = () => {
     <Header/>
     <NavbarMenu/>
     <HeroSection/>
+    <Clientlogo/>
     <OurServices/>
   
     <Offer/>

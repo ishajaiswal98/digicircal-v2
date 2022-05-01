@@ -10,7 +10,7 @@ const NavbarMenu = () => {
 
   return (
     <div>
-<Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='navbarMenu' fixed='top'>
+<Navbar collapseOnSelect expand="lg"  className='navbarMenu' fixed='top'>
   <Container fluid>
   <Navbar.Brand as={Link} to="/"><img src='images/DIGI_3D.jpg' alt='logo' /></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleClick}><i className={click ? 'fas fa-times' : 'fas fa-bars'} /></Navbar.Toggle>

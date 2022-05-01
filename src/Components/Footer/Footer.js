@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { Container,Row ,Col } from "react-bootstrap";
-import {FaFacebook , FaTwitter, FaWhatsapp, FaPhoneAlt, FaEnvelopeOpenText} from 'react-icons/fa';
+import {FaCheck, FaPhoneAlt, FaEnvelopeOpenText} from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -13,10 +13,15 @@ const Footer = () => {
       <Row>
       <Col md={4}>
 
-          <img src='images/DIGI_3D.jpg' alt='' style={{height:'100px' , width:'150px' , marginTop:'0'}}></img>
-
+          {/* <img src='images/DIGI_3D.jpg' alt='' style={{height:'100px' , width:'150px' , marginTop:'0'}}></img> */}
+          <h4 className="OurOffices">About Us
+          </h4>
           <p className="AboutSoftgenics">
-          "Salon Home Service No'1 in Patna, Professional Beauticians, Genuine products and Best rates guaranteed" . 
+          Digi Circal is a leading Digital agency on Digital marketing, Logo design, 2D/3D Animation,
+Video editing, Content writing, Website design, and related services firm in India. Digi Circal
+providing high-quality, cost-effective, and timely services to its clients in India and overseas.
+Digital marketing is an integral aspect of almost all business types. The continuous and quick
+growth of the current period has made everything so convenient. 
           </p>
           
           </Col>
@@ -25,12 +30,12 @@ const Footer = () => {
           <h4 className="OurOffices">Our Services
           </h4>
           <ul>
-            <li>Website Design</li>
-            <li>Shoot Video</li>
-            <li>Animation Video</li>
-            <li>Promo Video</li>
-            <li>Lead Generation</li>
-            <li>Graphic Design</li>
+            <li><FaCheck style={{color:'black'}}/> Design</li>
+            <li><FaCheck style={{color:'black'}}/> Shoot Video</li>
+            <li><FaCheck style={{color:'black'}}/> Animation Video</li>
+            <li><FaCheck style={{color:'black'}}/> Promo Video</li>
+            <li><FaCheck style={{color:'black'}}/> Lead Generation</li>
+            <li><FaCheck style={{color:'black'}}/> Graphic Design</li>
           </ul>
 
          
@@ -38,18 +43,19 @@ const Footer = () => {
         </Col>
 
         <Col md={4}>
-          <h4 className=" mb-0 OurOffices text-center">CONTACT</h4>
+          <h4 className=" mb-0 OurOffices text-center">CONTACT US</h4>
      
             <ul className="list-unstyled">
             
             
             <li>
-           <p><a href="#" className="cont"><FaPhoneAlt/></a>(+91) 93188 18893</p>
+           <p><a href="tel:8368491107" className="cont"><FaPhoneAlt style={{color:'black'}}/></a>8368491107,7827496895</p>
             </li>
             <li>
-          <p><a href="#" className="cont"><FaEnvelopeOpenText/></a>www.abc.com</p>
+          <p><a href="mailto:info@digircal.com" className="cont"><FaEnvelopeOpenText style={{color:'black'}}/></a>info@digircal.com</p>
             </li>
-            
+            <li>           <p> Block C  New Ashok Nagar New Delhi (110096)</p> </li>
+
           
                    </ul>
 
@@ -59,7 +65,7 @@ const Footer = () => {
        
             <div className="text-center p-3 copyright">
       © 2022 designed by:
-      <a className="text-black ml-2" href="https://mdbootstrap.com/">SoftGenics.com</a>
+      <a className="text-black ml-2" href="https://mdbootstrap.com/">Digicircal.com</a>
     </div>
     </Row>
     </Container>

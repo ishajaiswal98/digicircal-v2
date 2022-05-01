@@ -8,8 +8,21 @@
     height: 5.8vh;
     border: none !important;
     z-index: 110;
-    background-color: rgb(47, 47, 243) !important;
+    background-color: rgb(10, 10, 230) !important;
+    color: white !important;
  
+}
+.Header .fa-twitter{
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+}
+.Header .fa-phone-alt{
+    color: white !important;
+}
+.Header .fa-envelope{
+    color: white;
+    
 }
 .Header .fa-instagram {
     color: white !important;
