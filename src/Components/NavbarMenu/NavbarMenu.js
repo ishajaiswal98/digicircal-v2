@@ -17,19 +17,19 @@ const NavbarMenu = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link as={Link} to="/"  eventKey={2} onClick={closeMobileMenu}>HOME</Nav.Link>
-      <Nav.Link as={Link} to="/"  eventKey={2} onClick={closeMobileMenu}>ABOUT US</Nav.Link>
+      <Nav.Link as={Link} to="/about-digicircal"  eventKey={2} onClick={closeMobileMenu}>ABOUT US</Nav.Link>
       <NavDropdown title="OUR SERVICES" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to="/website-design-at-digi-circal" eventKey={2} onClick={closeMobileMenu}>Website design</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to="/shoot-video-at-digi-circal"  eventKey={2} onClick={closeMobileMenu}>Shoot video</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/shoot-video-at-digi-circal"  eventKey={2} onClick={closeMobileMenu}>Corporate video</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/animation-video-at-digi-circal"  eventKey={2} onClick={closeMobileMenu}>Animation video</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/promo-video-at-digi-circal" eventKey={2} onClick={closeMobileMenu}>Promo video</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/lead-generation-by-digi-circal" eventKey={2} onClick={closeMobileMenu}>Lead Generation</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/graphic-design-by-digi-circal" eventKey={2} onClick={closeMobileMenu}>Graphic Design</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link as={Link} to="/"    eventKey={2} onClick={closeMobileMenu}>Blog</Nav.Link>
-      <Nav.Link as={Link} to="/"    eventKey={2} onClick={closeMobileMenu}>Reviews</Nav.Link>
+      {/* <Nav.Link as={Link} to="/"    eventKey={2} onClick={closeMobileMenu}>Blog</Nav.Link> */}
+      <Nav.Link  href="#rev"    eventKey={2} onClick={closeMobileMenu}>Reviews</Nav.Link>
     </Nav>
-    <Button variant="primary " size="lg" className='btn-call'>CALL US </Button>
+    <Button  size="sm" className='btn-call'>CALL US </Button>
   
   </Navbar.Collapse>
   </Container>

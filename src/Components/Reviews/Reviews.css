@@ -1,6 +1,6 @@
 .review {
-    margin: 0;
-    background-color: azure;
+    margin: 3rem;
+    background-color: rgb(123, 206, 202);
 }
 .review h2 {
     letter-spacing: 3px;
@@ -8,17 +8,16 @@
     color: blue;
     text-shadow: 0px 0px 2px black;
 }
-.review h2 span {
-    color: green;
-}
 .review .card {
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px  0px 3px green;
     padding: 1rem;
     width: 98%;
-    height: 25vh;
+    height: 50vh;
+    margin-bottom: 1rem;
+    border-radius: 10px;
 }
 .review .card .fa-user {
-    background-color: blue;
+    background-color: rgb(12, 12, 146);
     color: #fff;
     height: 28px;
     width: 28px;
@@ -31,7 +30,7 @@
     float: right;
 }
 .rating i{
-    color: rgb(202, 206, 7);
+    color: rgb(248, 252, 24);
     padding: 4px;
     text-shadow: 1px 0px 2px rgb(58, 57, 57);
 }

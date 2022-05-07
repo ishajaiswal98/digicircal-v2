@@ -1,5 +1,5 @@
 .hero-container {
-    background: url('/public/images/hhh.png') center center/cover no-repeat; 
+    background: url('/public/images/dig.jpg') center center/cover no-repeat; 
     height: 100vh;
     width: 100%;
     display: flex;
@@ -7,12 +7,15 @@
     justify-content: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
-    animation: changeBackgroundImage 13s infinite;
+    /* animation: changeBackgroundImage 13s infinite; */
     /* margin-top: 13rem; */
     overflow: hidden;
-    margin-top: 1px;
+    margin-top: 6rem;
+    border-style: groove;
+    border-color: blue !important;
+    border-bottom-width: blue !important;
   }
-  @keyframes changeBackgroundImage {
+  /* @keyframes changeBackgroundImage {
     15% {
       background: url('/public/images/hhh.png') ;
       
@@ -26,7 +29,7 @@
     100% {
       background:url('/public/images/hhh.png') ;
     }
-  }
+  } */
   .hero-container > span {
     color: #fff;
     font-size: 100px;
@@ -63,6 +66,7 @@
       font-size: 70px;
       align-items: center;
       margin-top: 0rem;
+      
     
     }
   }

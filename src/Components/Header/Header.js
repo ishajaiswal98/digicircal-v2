@@ -12,17 +12,24 @@ const Header = () => {
     <Nav className="me-auto">
     
     </Nav>
-    <Nav.Link href='tel:8368491107'><i className='fa fa-phone-alt'>8368491107</i></Nav.Link>
-    <Nav.Link href='tel:782749689'><i className='fa fa-phone-alt'>782749689</i></Nav.Link>
-    <Nav.Link href='mailto:info@digircal.com'><i className='fa fa-envelope'>info@digircal.com</i></Nav.Link>
-    <Nav.Link href="/" ><i className="fab fa-facebook"></i></Nav.Link> 
-    <Nav.Link href='/'><i className='fab fa-twitter'></i></Nav.Link>
+    <Nav.Link href='tel:8368491107'><i className='fa fa-phone-alt'>&nbsp;(+91)8368491107</i></Nav.Link>
+    <Nav.Link href='tel:782749689'><i className='fa fa-phone-alt'>&nbsp;(+91)782749689</i></Nav.Link>
+    <Nav.Link href='mailto:info@digircal.com'><i className='fa fa-envelope '><span class="mr-1">&nbsp;info@digircal.com</span></i></Nav.Link>
+    
+      <Marquee className='marque-text' gradient={false}> <Blink color='white' text='A Complete Digital Advertisment Services.' fontSize='20'></Blink></Marquee>
+    </Container>
+    <Nav.Link href="/ www.facebook.com/digicircal" ><i className="fab fa-facebook"></i></Nav.Link> 
+    
 
-      <Nav.Link href="#">
+      <Nav.Link href="instagram.com/digicircal/">
       <i className="fab fa-instagram"></i>
       </Nav.Link>
-      <Marquee className='marque-text' gradient={false}> <Blink color='white' text='A complete digital advertisment services . contact now 9176543216' fontSize='20'></Blink></Marquee>
-    </Container>
+      <Nav.Link href="/company/digi-circal">
+      <i className="fab fa-linkedin"></i>
+      </Nav.Link>
+      <Nav.Link href="https://www.youtube.com/channel/UCJWQtjFuBIbWtAelawgdS5g">
+      <i className="fab fa-youtube"></i>
+      </Nav.Link>
     </Navbar>
     </div>
   )

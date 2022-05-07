@@ -14,6 +14,8 @@
 .AboutSoftgenics{
     font-weight: bolder;
     font-family: 'Noto Sans JP,Helvetica,Arial,sans-serif';
+    margin: 0;
+    padding: 0;
      
 }
 .OurOffices{
@@ -22,13 +24,13 @@
     color: rgb(242, 250, 249);
     text-decoration-line:underline;
     /* text-shadow: 2px 2px 3px rgb(250, 155, 13); */
-    text-align: left;
+    text-align: center;
     margin-top: 3rem;
   
 }
 ul{
     list-style: none;
-    text-align: left;
+    text-align: justify;
 }
  
 
@@ -59,10 +61,9 @@ ul{
 }
 
 .cont{
-    font-size: x-large;
+    font-size: large;
     border-radius: 50%;
-    color: goldenrod;
-    margin-right: 2rem;
+    margin-right: 1rem;
     
 }
 
@@ -89,4 +90,13 @@ ul{
 }
 .margin-div{
     margin-top: 3rem;
+}
+.links li a{
+
+    text-decoration: none;
+    color: white;
+    
+}
+.links  li{
+    margin-left: 6rem;
 }

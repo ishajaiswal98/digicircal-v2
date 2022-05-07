@@ -14,20 +14,29 @@
 }
 .Header .fa-twitter{
     color: white;
-    font-size: 25px;
-    padding: 4px;
+    font-size: 18px;
+    padding-top: 00.5rem;
+    
+    
 }
 .Header .fa-phone-alt{
     color: white !important;
+    
 }
 .Header .fa-envelope{
     color: white;
-    
-}
+ }
+ .Header .fa-linkedin{
+     color: white;
+ }
+ .Header .fa-youtube{
+     color: white;
+ }
 .Header .fa-instagram {
     color: white !important;
-    font-size: 25px;
-    padding: 4px;
+    font-size: 18px;
+    padding-top: 00.5rem;
+    
 }
 .Header .fa-instagram:hover{
     color: rgb(23, 235, 23);
@@ -35,8 +44,8 @@
 
 .Header .fa-facebook {
     color: white !important;
-    font-size: 25px;
-    padding: 4px;
+    font-size: 18px;
+    padding-top: 00.5rem;
 }
 
 

@@ -25,17 +25,17 @@ growth of the current period has made everything so convenient.
           </p>
           
           </Col>
-          <Col md={4}>
+          <Col md={4} >  
         
           <h4 className="OurOffices">Our Services
           </h4>
-          <ul>
-            <li><FaCheck style={{color:'black'}}/> Design</li>
-            <li><FaCheck style={{color:'black'}}/> Shoot Video</li>
-            <li><FaCheck style={{color:'black'}}/> Animation Video</li>
-            <li><FaCheck style={{color:'black'}}/> Promo Video</li>
-            <li><FaCheck style={{color:'black'}}/> Lead Generation</li>
-            <li><FaCheck style={{color:'black'}}/> Graphic Design</li>
+          <ul className='links'>
+            <li><FaCheck style={{color:'black' , fontSize:'2rem'}}/><a href='/website-design-at-digi-circal'> Design</a></li>
+            <li><FaCheck style={{color:'black' , fontSize:'2rem'}}/> <a href='/shoot-video-at-digi-circal'>Shoot Video</a></li>
+            <li><FaCheck style={{color:'black' , fontSize:'2rem'}}/> <a href='/animation-video-at-digi-circal'>Animation Video</a></li>
+            <li><FaCheck style={{color:'black' , fontSize:'2rem'}}/> <a href='/promo-video-at-digi-circal'>Promo Video</a></li>
+            <li><FaCheck style={{color:'black' , fontSize:'2rem'}}/> <a href='/lead-generation-by-digi-circal'>Lead Generation</a></li>
+            <li><FaCheck style={{color:'black' , fontSize:'2rem'}}/> <a href='/graphic-design-by-digi-circal'>Graphic Design</a></li>
           </ul>
 
          
@@ -49,7 +49,7 @@ growth of the current period has made everything so convenient.
             
             
             <li>
-           <p><a href="tel:8368491107" className="cont"><FaPhoneAlt style={{color:'black'}}/></a>8368491107,7827496895</p>
+           <p><a href="tel:8368491107" className="cont"><FaPhoneAlt style={{color:'black' , size:'1rem'}}/></a>(+91)8368491107, (+91)7827496895</p>
             </li>
             <li>
           <p><a href="mailto:info@digircal.com" className="cont"><FaEnvelopeOpenText style={{color:'black'}}/></a>info@digircal.com</p>
